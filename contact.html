@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Ernest.</a>
+
+        <nav>
+            <a href="index.html"> Home</a>
+            <a href="services.html" >Services</a>
+            <a href="skills.html" >Skills</a>
+            <a href="education.html" >Education</a>
+            <a href="experience.html" >Experience</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+    <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+        
+        <div class="input-box">
+            <!-- Inline style used to make the phone number full width -->
+            <input type="tel" placeholder="Mobile Number" style="width: 100%;">
+        </div>
+        
+        <div class="services-box">
+            <h3>Type of Service Required:</h3>
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" name="service" value="Photography"> Photography
+                </label>
+                <label>
+                    <input type="checkbox" name="service" value="Videography"> Videography
+                </label>
+                <label>
+                    <input type="checkbox" name="service" value="Web Development"> Web Development
+                </label>
+            </div>
+        </div>
+
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+</body>
+</html>
