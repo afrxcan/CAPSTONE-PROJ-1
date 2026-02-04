@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 *{
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     border: none;
     outline: none;
-    font-family: 'Poppins', sans-serif;
 }
 
 html{
@@ -138,8 +138,10 @@ span{
 .home-img img{
     position: relative;
     width: 32vw;
+    height: 32vw;
+    object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0 0 25px solid #b74b4b;
+    box-shadow: 0 0 25px #b74b4b;
     cursor: pointer;
     transition: 0.2s linear;
 }
@@ -261,6 +263,7 @@ span{
 
     .home-img img{
         width: 70vw;
+        height: 70vw;
         margin-top: 4rem;
     }
 }

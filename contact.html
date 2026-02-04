@@ -4,8 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="main.jpg">
     <title>Contact</title>
 </head>
 <body>
@@ -24,15 +29,19 @@
     <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me</span></h2>
 
-    <form action="#">
+    <form action="https://formspree.io/f/xzdrleoq" method="POST">
         <div class="input-box">
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email Address">
+    <label for="name"></label>
+            <input type="text" placeholder="Full Name" name="user_name" required>
+
+    <label for="email"></label>
+            <input type="email" placeholder="Email Address" name="user_email" required>
         </div>
         
         <div class="input-box">
             <!-- Inline style used to make the phone number full width -->
-            <input type="tel" placeholder="Mobile Number" style="width: 100%;">
+    <label for="phone"></label>
+            <input type="tel" placeholder="Mobile Number" name="user_Admission_Number" required style="width: 100%;">
         </div>
         
         <div class="services-box">
