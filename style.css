@@ -143,10 +143,12 @@ span{
     border-radius: 50%;
     box-shadow: 0 0 25px #b74b4b;
     cursor: pointer;
-    transition: 0.2s linear;
+    transition: 0.5s linear;
 }
 
-.home-img img:hover{
+.home-img img:hover{ 
+    transition: 0.2s linear;
+    transform: scale(1.05);
     font-size: 1.8rem;
     font-weight: 500;
 }
